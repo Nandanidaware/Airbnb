@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:  #fffff0;
+
+        }
+
+        h1 {
+            font-weight: bolder;
+            font-size: xx-large;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+
+        }
+        li {
+            text-shadow: 2px 2px 4px rgba(238, 164, 164, 0.5); 
+            font-size: 25px;
+            font-weight: bolder;
+            display: inline;
+            padding-left: 15%;
+            
+        }
+
+        ul {
+            background-color:  #e7e1a6;
+            list-style-type: none;
+            height: 50px;
+            width: 100%;
+            
+        }
+        .img-container {
+            margin-top: 5%;
+            height: 450px;
+            width: 100px;
+            border: 2px solid black;
+            display: inline-block;
+            margin-left: 5%;
+            overflow-y: scroll;
+
+        }
+        img{
+            height: 90px;
+            width: 90px;
+        }
+        .logo {
+            height: 30px;
+            width: 30px;
+            margin-top: 6px;
+            
+        }
+        a {
+            text-decoration: none;
+        }
+        #swim {
+            height: 455px;
+            width: 500px;
+            margin-left: 5.5%;
+        }
+        .box {
+            height: 455px;
+            width: 500px;
+            border-style: ridge;
+            border: 3px solid rgb(81, 68, 68);
+            display: inline-block;
+            position: absolute;
+            margin-left: 6%;
+            margin-top: 5%;
+            text-align: center;
+
+        }
+        button {
+            background-color: rgb(141, 185, 29);
+            color: white;
+            font-weight: bolder;
+        }
+        span {
+            background-color: rgb(59, 56, 204);
+            color: white;
+
+        }
+        p{
+            font-weight: bolder;
+        }
+        .share{
+            padding: 5.5px;
+            margin-left: 10px;
+        }
+        .save{
+            padding: 4px;
+        }
+        .ask{
+            padding: 5px;
+        }
+        a{
+            color: rgb(12, 12, 12);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>AIRBNB ✈</h1>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">IMAGES</a></li>
+                    <li><a href="#">HELP</a></li>
+                    <li><a href="#"><img src="./logo.png" class="logo"> Log In</a></li>
+                </ul>
+        </div>
+
+        </nav>
+    </header>
+   
+    <div class="img-container">
+        <img src="./airbnb1.webp">
+        <img src="./airbnb2.webp">
+        <img src="./airbnb3.webp">
+        <img src="./airbnb4.webp">
+        <img src="./airbnb5.webp">
+    </div> 
+    <img src="./swim.jpg" id="swim">
+    <div class="box">
+        <p>₹55.31 L - 87.39 L <span> EMI starts at ₹29.29 K</span></p>
+        <p>Taruchaya Residency <span>4.3 ☆</span> RERA✔</p>
+        <p>By Vilasa Group</p>
+        <p>2, 3 BHK Flats for sale in Bhankrota</p>
+        <div>Location: Jaipur</div>
+        <p>Features:Spacious floor plans, modern kitchen, in-unit laundry, private balcony</p>
+        <p>Amenities: Swimming pool, fitness center, clubhouse, pet-friendly</p>
+        <p>Details: 24/7 maintenance, convenient location near shopping and dining
+        </p>
+        <p>Schedule a tour today!
+        </p>
+        <div><button class="share">Share</button> <button class="save">♡ Save</button> <button class="ask">Ask For Deatails</button>
+        </div>
+
+    </div>
+    
+    
+
+</body>
+</html>
